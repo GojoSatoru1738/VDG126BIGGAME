@@ -19,7 +19,7 @@ Properties:
 
 var playerData ={
 	info:{
-		src:`images/snale.png`
+		src:`images/SolSprite.png`
 	},
 	states:{
 		//The idle animation 
@@ -29,8 +29,12 @@ var playerData ={
 			cycle:true,
 			frames:
 			[
-				{width:128, height:128, startX:0, startY:0},
-				{width:128, height:128, startX:128, startY:0}
+				{width:64, height:64, startX:0, startY:0},
+				{width:64, height:64, startX:64, startY:0},
+				{width:64, height:64, startX:0, startY:64},
+				{width:64, height:64, startX:128, startY:64},
+				{width:64, height:64, startX:64, startY:128},
+				{width:64, height:64, startX:128, startY:128},
 				
 			]
 		},
@@ -92,4 +96,5 @@ var playerData ={
 		}
 	}
 		
+
 }
