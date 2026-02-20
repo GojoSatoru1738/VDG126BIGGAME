@@ -60,7 +60,7 @@ levelItems.add([caveBack.grid, ground, plat, cave.grid]);
 
 //Very back background
 var sky = new GameObject({width:canvas.width, height:canvas.height, color:"cyan"})
-sky.img.src = `images/skypurp.png`
+sky.img.src = `images/SkyPurp.png`
 
 /*
  	//Not used, unless you want a 4th level of paralax
@@ -317,5 +317,6 @@ gameStates[`level1`] = function()
 	//Renders front of cave
 	front.play().render(`drawSprite`);
 	
+
 
 }
